@@ -1,0 +1,6 @@
+.title{
+    max-width: 300px;
+    height: 140px;
+    border: black solid 1em;
+    overflow: hidden;
+}
