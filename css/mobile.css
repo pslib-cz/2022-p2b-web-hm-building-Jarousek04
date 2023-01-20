@@ -90,43 +90,62 @@ footer > p{
 /*hbnjkbhvghbjnkbhvgchvbjnbhgcfhgvb*/
 
 
-.header > img{
-    width: 127px;
-    height: 44px;
-}
 
-.title > img{
-    position: absolute;
-    width: 781px;
-    height: 269px;
-    left: -5px;
-    top: 0px;
-    z-index: -1;
-}
+
 
 .header__nav{
-    margin: 24px 20px 36.5px 20px;
     display: flex;
-    border: black 2px solid;
+    justify-content: space-between;
+    margin:24px 20px 36.5px 20px
 
 }
 
 .menu{
-    font-size: 0em;
+    display: flex;
+    list-style-type: none;
+    font-size: 0px;
+    background-color: #EB6C27;
 
+}
+.menu:hover{
+    font-size: 30px;
 }
 
 .navbar{
     border: black 2px solid;
+    width: 100%;
 
 }
 
-.menu:hover{
-    font-size: 1em;
+.header__nav > img{
+    height: 44px;
 }
-.header{
-    background-image: url(../media/background-CTAblock-4460w.jpg);
+
+.img_res{
+    display: none;
+}
+
+.title{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top:179px;
+    padding-bottom:20px;
+    background-image:url(../media/header-background\ \(1\).jpg);
+    background-position: center;
+    background-size:auto 150%;
+    background-repeat: no-repeat;
+    padding-left: -20px;
+    padding-right:-20px ;
+    margin-bottom: 55px;
+}
+.button{
+    color: var(--orange);
+    padding: 12px 40px 12px 40px;
+    font-size: 14px;
+    border-radius: 2px;
+    border-style: dashed;
+    text-decoration-line: none;
+    margin-bottom: 40px;
 }
