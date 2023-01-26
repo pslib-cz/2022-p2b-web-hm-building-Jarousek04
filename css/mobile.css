@@ -257,3 +257,39 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.popis > ul > li{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.popis > ul{
+    color: var(--orange);
+}
+
+.popis > ul >h1{
+    color: var(--black);
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+}
+.galery3{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1;
+    gap: 8px;
+}
+
+.img_small{
+    width: 320px;
+    height: auto;
+}
+.img_big{
+    width: 320px;
+    height: auto;
+}
