@@ -124,8 +124,13 @@ footer > p{
     height: 44px;
 }
 
+.img_res_1{
+    width: 319px;
+    height: 134px;
+    border-radius: 0px 0px 40px 0px;
+}
+
 .img_res{
-   
     width: 319px;
     height: 134px;
     border-radius: 0px 0px 0px 40px;
