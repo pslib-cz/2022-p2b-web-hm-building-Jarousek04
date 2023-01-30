@@ -12,24 +12,35 @@
 <body>
 
     <header class="header">
-        <div class="header__nav">
-                <img src="./media/logo.svg"  alt="logo">
-                <ul class="menu">
+        <nav class="header__nav">
+                <a href="index.html"><img class="img-responsive" src="./media/logo.svg"  alt="HM Building cz"></a>
+                <menu class="menu hamburger-menu hamburger-menu--hidden">
                     <li><a href="./index.html" class="active">DOMŮ</a></li>
                     <li><a href="#popis">SLUŽBY</a></li>
                     <li><a href="./html/reference.html">REFERENCE</a></li>
                     <li><a href="./html/onas.html">O NÁS</a></li>
                     <li><a href="./html/kontakt.html">KONTAKTY</a></li>                
-                </ul>
-                <a class="hamburger" hrf="javascript:void(0)">menu</a>
-        </div>
+                </menu>
+                <a class="hamburger" href="javascript:void(0)">menu</a>
+        </nav>
         <div class="title">
-            <h1>HM Building.cz s.r.o.</h1>
-            <h2>liberecká stavební společnost</h2>
-            <a>Pokračovat v</a>
+            <h1>HM Building.cz s.r.o.
+            <span>liberecká stavební společnost</span></h1>
+
+            <a></a>
         </div>
     </header>
-
+    <script>
+        const hamburgerButtons = document.querySelectorAll(".hamburger");
+        for (const btn of hamburgerButtons) {
+            btn.onclick = (event) => {
+                const menus = document.querySelectorAll(".hamburger-menu");
+                for (const menu of menus) {
+                    menu.classList.toggle("hamburger-menu--hidden");
+                }
+            }
+        }
+    </script>
     <div class="body">
 
         <div class="popis" id="popis">
@@ -123,6 +134,6 @@
         <p>Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
         <a class="button3">Nezávazně poptat</a>
     </footer>  
-
+    
 </body>
 </html>
