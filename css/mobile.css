@@ -348,3 +348,40 @@ line-height: 17px;
     height: auto;
     width: 361px;
 }
+.info > p{
+    color:var(--orange);
+}
+.okenko{
+    padding-left: 100%;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 0;
+    border: 1px solid #EB6C27;
+}
+.okenko2{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #EB6C27;
+    color:#EB6C27;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.okenko2 > p{
+    color: #EB6C27;
+
+}
+.okenko3{
+    padding-left: 100%;
+    padding-bottom: 280px;
+    padding-right: 0;
+    border: 1px solid #EB6C27;
+}
+.formular > p{
+    margin-bottom: 3em;
+}
+.button9{
+    color: white;
+    background-color: #EB6C27;
+    padding: 1em;
+}
