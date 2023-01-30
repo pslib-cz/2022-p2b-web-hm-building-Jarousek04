@@ -86,7 +86,7 @@ menu::after {
         display: flex;
     } 
     .hamburger-menu--hidden {
-        z-index: -1;
+        display: none;
     }
 }
 
@@ -94,7 +94,6 @@ menu::after {
     
     height: 100%;
 }
-
 
 /* menu s hamburger menu stop */
 
@@ -344,4 +343,8 @@ line-height: 17px;
 .img_big{
     width: 320px;
     height: auto;
+}
+.mapa{
+    height: auto;
+    width: 361px;
 }
