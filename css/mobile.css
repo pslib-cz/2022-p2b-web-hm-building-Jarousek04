@@ -228,6 +228,10 @@ footer > p{
     margin-top: 20px;
     margin-bottom: 40px;
 }
+blok_1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 .baner{
     background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)), url(../media/background-CTAblock-4460w.jpg);
     background-repeat: no-repeat;
@@ -384,4 +388,79 @@ line-height: 17px;
     color: white;
     background-color: #EB6C27;
     padding: 1em;
+}
+@media screen {
+   .header{
+    display: flex;
+    flex-direction: row;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 95vh;
+    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.185), rgba(36, 36, 36, 0.85)), url(../media/pageheader-1920w.jpg);
+
+   }
+   .header__nav{
+    padding: .4em;
+    background-color: white;
+    width: 90%;
+ 
+   }
+   .menu{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+   }
+   .title{
+     background-image: none;
+     margin: 0;
+     padding: 0;
+   }
+   .popis{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+   }
+   .popis > h1{
+    text-align: center;
+    font-size: 30px;
+   }
+
+   .blok{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+   }
+   .blok_1{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
+   }
+   .txt{
+    display: flex;
+    width: 730px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+
+   }
+   .img_res_1{
+    width: 730px;
+    height: auto;
+    margin-right: 4em;
+   }
+   .img_res{
+    width: 730px;
+    height: auto;
+    margin-left: 4em;
+   }
+   .button{
+    margin-right: 39.4em;
+   }
+
+   
+
 }
