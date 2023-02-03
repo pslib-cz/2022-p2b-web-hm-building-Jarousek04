@@ -19,9 +19,9 @@ html {
 
 
 .header__nav{
-    position: relative;
     display: flex;
     justify-content: space-between;
+    position: relative;
     margin:1.5em 1.2em 2em 1.2em;
     height: 53px;
 }
@@ -389,21 +389,27 @@ line-height: 17px;
     background-color: #EB6C27;
     padding: 1em;
 }
-@media screen {
+
+@media (min-width: 1200px) {
    .header{
     display: flex;
-    flex-direction: row;
-    background-size: auto 100%;
+    align-items: baseline;
+    justify-content: space-between;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 95vh;
     background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.185), rgba(36, 36, 36, 0.85)), url(../media/pageheader-1920w.jpg);
-
+    background-position: center;
+  }
    }
    .header__nav{
-    padding: .4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: white;
-    width: 90%;
+    margin: 0;
+
  
    }
    .menu{
@@ -417,6 +423,7 @@ line-height: 17px;
      background-image: none;
      margin: 0;
      padding: 0;
+     display: none;
    }
    .popis{
     text-align: center;
@@ -448,19 +455,21 @@ line-height: 17px;
 
    }
    .img_res_1{
-    width: 730px;
-    height: auto;
+    width: 729px;
+    height: 307px;
     margin-right: 4em;
    }
    .img_res{
-    width: 730px;
-    height: auto;
+    width: 729px;
+    height: 307px;
     margin-left: 4em;
    }
    .button{
     margin-right: 39.4em;
    }
-
+   .menu::after{
+    display: none;
+   }
    
 
 }
