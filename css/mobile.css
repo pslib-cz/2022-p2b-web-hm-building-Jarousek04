@@ -228,7 +228,7 @@ footer > p{
     margin-top: 20px;
     margin-bottom: 40px;
 }
-blok_1{
+.blok_1{
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -401,7 +401,7 @@ line-height: 17px;
     height: 95vh;
     background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.185), rgba(36, 36, 36, 0.85)), url(../media/pageheader-1920w.jpg);
     background-position: center;
-  }
+  
    }
    .header__nav{
     display: flex;
@@ -470,6 +470,6 @@ line-height: 17px;
    .menu::after{
     display: none;
    }
-   
-
 }
+
+
