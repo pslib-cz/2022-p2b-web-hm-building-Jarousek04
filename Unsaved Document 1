@@ -3,7 +3,7 @@ Kunst Jaroslav
 
 · Html soubory dávat do složky html je přinejmenším podivné - opraveno
 
-· Návrh bude mobile first; zde zcela chybí základní verze webu
+· Návrh bude mobile first; zde zcela chybí základní verze webu - opraveno
 
 · Uflexováno k smrti; dávat skutečně je tam, kde blokové prvky mají být vedle sebe
 
@@ -15,13 +15,13 @@ Kunst Jaroslav
 
 · V .baner min-height nedává smysl; použijte spíš margin/padding
 
-· <br><br> je citoslovce vyjádření zimy, na webu nemá co dělat
+· <br><br> je citoslovce vyjádření zimy, na webu nemá co dělat -odstraněno
 
 · Nepoužívejte na tlačítka flex, nenastavujte pevný rozměr; Tlačítko je block nebo inline-block + vhodný padding
 
 · Font-size, padding a margin nastavujte v em = logika násobků rozměru písma
 
-· Použití <mark> tagu nedává v tomto kontextu smysl (ani zřejmě v žádném jiném)
+· Použití <mark> tagu nedává v tomto kontextu smysl (ani zřejmě v žádném jiném) -opraveno
 
 · V .galery2 je špatně struktura; obrázky budou ve společném kontejneru s k nim příslušným textem
 
