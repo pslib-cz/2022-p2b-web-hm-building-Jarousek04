@@ -104,11 +104,7 @@ p{
     font-weight: 400;
 }
 
-p > mark{
-    color:var(--black);
-    background-color: transparent;
-    font-weight: bold;
-}
+
 .title > h1{
     font-weight: 800;
     font-size: 30px;
@@ -123,31 +119,30 @@ p > mark{
     color: var(--white);
 }
 
-.popis > h1{
+.popis > .hlavni{
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
 }
 
-.popis > h1 > mark{
+.popis > .hlavni > b{
     color: var(--orange);
-    background-color: transparent;
 }
 
-.galery > h1{
+.galery > h2{
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
 
 }
 
-.baner > h1{
+.baner > h2{
     font-weight: 700;
     font-size: 17px;
     line-height: 21px;
 }
 
-.galery2 > h1{
+.galery2 > h2{
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
@@ -161,7 +156,7 @@ p > mark{
 
 
 
-footer > h1{
+footer > h2{
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
@@ -241,25 +236,17 @@ footer > p{
     padding: 1.5em;
     color: white;
     margin-top: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 20vh;
-    padding: 1.5em;
 }
 .img_res_2{
     width: 320px;
     height: 200px;
 }
-.baner > h1{
+.baner > h2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
-
     color: var(--white);
     padding-left: 20px;
     padding-right: 20px;
@@ -276,23 +263,18 @@ footer > p{
     height: 41px;
     background: var(--orange);
 }
-.txt2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.txt2 > h1{
+
+.galery2 > h2{
     margin:0px;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
 }
-.popis > h1{
+.popis > h2{
     text-align: start;
     font-size: 22px;
     font-weight: 800;
-    margin-bottom: 1em;
+  
 }
 footer{
     background-color: var(--orange);
@@ -355,32 +337,28 @@ line-height: 17px;
 .info > p{
     color:var(--orange);
 }
-.okenko{
-    padding-left: 100%;
-    padding-top: 30px;
-    padding-right: 0;
-    padding-bottom: 0;
-    border: 1px solid #EB6C27;
+form{
+    display: flex;
+    flex-direction: column;
 }
-.okenko2{
-    padding-left: 10px;
-    padding-right: 10px;
+input{
+    padding: .6em;
     border: 1px solid #EB6C27;
-    color:#EB6C27;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: .5em;
 }
-.okenko2 > p{
-    color: #EB6C27;
+select{
+    padding: .6em;
+    border: 1px solid #EB6C27;
+    background-color: white;
+    margin: .5em;
+}
+.sub{
+    background-color: #EB6C27;
+    color: white;
+    padding: .6;
+    margin-bottom: 6em;
+}
 
-}
-.okenko3{
-    padding-left: 100%;
-    padding-bottom: 280px;
-    padding-right: 0;
-    border: 1px solid #EB6C27;
-}
 .formular > p{
     margin-bottom: 3em;
 }
@@ -469,6 +447,9 @@ line-height: 17px;
    }
    .menu::after{
     display: none;
+   }
+   .title > h1 > span {
+    font-size: 2em;
    }
 }
 

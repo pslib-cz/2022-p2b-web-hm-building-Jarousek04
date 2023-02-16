@@ -47,19 +47,23 @@
         <img src="./media/mapa.jpg" class="mapa">
         <h2>Nezávazná poptávka služeb</h2>
         <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
-        <div class="formular">
-            <p>Jméno a příjmení</p>
-            <a class="okenko"></a>
-            <p>E-mail</p>
-            <a class="okenko"></a>
-            <p>Telefon</p>
-            <a class="okenko"></a>
-            <p>Poptavka služba</p>
-            <a class="okenko2"><p>Novostavba</p><p>V</p></a>
-            <p>Poznámka</p>
-            <a class="okenko3"></a>
-            <a class="button9">Odeslat nezávaznou poptávku</a>
-        </div>
+        <form action="/action_page.php">
+            <label for="fname">Jméno a přijmení</label><br>
+            <input type="text" id="fname" name="fname" value="Roman Hozák"><br><br>            <label  for="fname">E-mail</label><br>
+<br>            <input  type="text" id="fname" name="name" value="roman.hozak.021@pslib.cz"><br>
+            <label for="lname">Telefon</label><br>
+<br>            <input type="text" id="lname" name="lname" value="111 111 111"><br><br>
+            <label for="lname">Poptávaná služba</label><br>
+            <select id="cars" name="cars">
+                <option value="">Vyberte službu</option>
+                <option value="">Novostavby</option>
+                <option value="">Průmyslové stavby</option>
+                <option value="">Rekonstrukce domů a jiných staveb</option>
+                <option value="">Komunikace a zpevnění plochy</option>
+            </select>
+            <input class="sub" type="submit" value="Submit">
+        </form> 
+        
     </div>
 </body>
 </html>
