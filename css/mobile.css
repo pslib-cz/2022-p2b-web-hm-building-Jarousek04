@@ -171,14 +171,14 @@ footer > p{
 }
 
 .img_res_1{
-    width: 319px;
-    height: 134px;
+    width: 100%;
+    height: 100%;
     border-radius: 0px 0px 40px 0px;
 }
 
 .img_res{
-    width: 319px;
-    height: 134px;
+    width: 100%;
+    height: 100%;
     border-radius: 0px 0px 0px 40px;
 }
 
@@ -238,8 +238,9 @@ footer > p{
     margin-top: 2em;
 }
 .img_res_2{
-    width: 320px;
-    height: 200px;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 .baner > h2{
     font-family: 'Inter';
@@ -323,16 +324,16 @@ line-height: 17px;
 }
 
 .img_small{
-    width: 320px;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 .img_big{
-    width: 320px;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 .mapa{
-    height: auto;
-    width: 361px;
+    height: 100%;
+    width: 100%;
 }
 .info > p{
     color:var(--orange);
@@ -433,13 +434,13 @@ select{
 
    }
    .img_res_1{
-    width: 729px;
-    height: 307px;
+    width: 100%;
+    height: 100%;
     margin-right: 4em;
    }
    .img_res{
-    width: 729px;
-    height: 307px;
+    width: 100%;
+    height: 100%;
     margin-left: 4em;
    }
    .button{
