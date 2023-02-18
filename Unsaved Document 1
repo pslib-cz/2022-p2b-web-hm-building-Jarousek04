@@ -1,11 +1,9 @@
 Kunst Jaroslav 
  https://pslib-cz.github.io/2022-p2b-web-hm-building-Jarousek04/
 
-· Uflexováno k smrti; dávat skutečně je tam, kde blokové prvky mají být vedle sebe
+· Uflexováno k smrti; dávat skutečně je tam, kde blokové prvky mají být vedle sebe -opraveno
 
-· Nepoužívejte na tlačítka flex, nenastavujte pevný rozměr; Tlačítko je block nebo inline-block + vhodný padding
-
-· Font-size, padding a margin nastavujte v em = logika násobků rozměru písma
+· Nepoužívejte na tlačítka flex, nenastavujte pevný rozměr; Tlačítko je block nebo inline-block + vhodný padding - opraveno
 
 
 
@@ -32,3 +30,5 @@ Kunst Jaroslav
  · Ve formuláři v kontaktlistu bude potřeba použít formulářové tagy (form, input, textarea…) -opraveno
 
 · .img_res zřejmě označuje responzivní obrázek à to je jeden z případů, kdy je OK použít width a height 100%... Nenastavujte obrázkům pevné rozměry! Nerespektuje to jejich velikost, poměr stran => dochází ke stlačení a deformaci. Obrázky musí být responzivní, viz Koderovo desatero. · Volte názvosloví tříd dle BEM – rozdělit na bloky, elementy, modifikátory, viz Příručka BEM. - opraveno
+
+· Font-size, padding a margin nastavujte v em = logika násobků rozměru písma -opraveno
